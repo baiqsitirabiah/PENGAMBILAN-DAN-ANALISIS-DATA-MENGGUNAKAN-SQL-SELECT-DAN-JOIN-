@@ -1,0 +1,5 @@
+SELECT mk.kode_mk, mk.nama_mk, k.kode_kelas, d.nama_dosen
+FROM kelas_kuliah AS k
+INNER JOIN mata_kuliah AS mk ON k.kode_mk = mk.kode_mk
+INNER JOIN dosen AS d
+  ON k.kode_induk_dosen = d.kode_induk_dosen;
