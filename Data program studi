@@ -1,1 +1,3 @@
 SELECT * FROM program_studi;
+SELECT kode_prodi, nama_prodi
+FROM program_studi;
