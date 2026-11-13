@@ -1,0 +1,4 @@
+SELECT m.nim, m.nama_mahasiswa, mk.nama_mk
+FROM krs AS r
+INNER JOIN mahasiswa AS m ON r.nim = m.nim
+INNER JOIN mata_kuliah AS mk ON r.kode_mk = mk.kode_mk;
