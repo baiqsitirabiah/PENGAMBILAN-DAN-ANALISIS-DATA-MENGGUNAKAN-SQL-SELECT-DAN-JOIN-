@@ -1,0 +1,4 @@
+SELECT kode_mk, nama_mk, jumlah_sks
+FROM mata_kuliah
+WHERE jumlah_sks BETWEEN 2 AND 3
+ORDER BY jumlah_sks DESC, kode_mk ASC;
