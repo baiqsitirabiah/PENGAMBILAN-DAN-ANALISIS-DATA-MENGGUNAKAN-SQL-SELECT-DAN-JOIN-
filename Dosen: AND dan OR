@@ -1,0 +1,3 @@
+SELECT kode_induk_dosen, nama_dosen, jenis_kelamin, kode_prodi
+FROM dosen
+WHERE jenis_kelamin = 'P' AND kode_prodi = 'TI';
