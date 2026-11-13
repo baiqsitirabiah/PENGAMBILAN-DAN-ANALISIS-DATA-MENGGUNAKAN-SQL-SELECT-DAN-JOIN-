@@ -1,0 +1,4 @@
+SELECT kode_induk_dosen, COUNT(*) AS jumlah_mahasiswa
+FROM mahasiswa
+GROUP BY kode_induk_dosen
+HAVING COUNT(*) > 1;
