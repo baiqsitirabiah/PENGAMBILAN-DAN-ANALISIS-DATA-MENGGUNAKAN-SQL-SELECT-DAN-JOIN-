@@ -1,0 +1,5 @@
+SELECT nim, nilai_akhir
+FROM nilai
+WHERE nilai_akhir >= 80
+ORDER BY nilai_akhir DESC
+LIMIT 3;
