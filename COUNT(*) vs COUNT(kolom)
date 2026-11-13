@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS jumlah_data,
+       COUNT(nilai_akhir) AS nilai_terisi
+FROM nilai;
