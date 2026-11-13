@@ -1,0 +1,4 @@
+FROM mata_kuliah AS mk
+LEFT JOIN kelas_kuliah AS k ON mk.kode_mk = k.kode_mk
+WHERE k.kode_kelas IS NULL
+ORDER BY mk.kode_mk;
