@@ -1,0 +1,3 @@
+SELECT kode_prodi, COUNT(*) AS jumlah_mahasiswa
+FROM mahasiswa
+GROUP BY kode_prodi;
