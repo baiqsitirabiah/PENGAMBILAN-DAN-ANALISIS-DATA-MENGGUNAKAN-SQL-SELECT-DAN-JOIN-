@@ -1,0 +1,4 @@
+SELECT nim, nama_mahasiswa, kode_prodi, status_mahasiswa
+FROM mahasiswa
+WHERE kode_prodi IN ('TI', 'SI')
+  AND status_mahasiswa = 'Aktif';
