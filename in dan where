@@ -1,0 +1,3 @@
+SELECT nim, nama_mahasiswa, kode_prodi
+  FROM mahasiswa
+  WHERE kode_prodi IN ('TI', 'SI');
