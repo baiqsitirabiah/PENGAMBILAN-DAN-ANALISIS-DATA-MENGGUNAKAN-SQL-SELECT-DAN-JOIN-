@@ -1,0 +1,3 @@
+SELECT kode_induk_dosen, COUNT(*) AS jumlah_kelas
+FROM kelas_kuliah
+GROUP BY kode_induk_dosen;
