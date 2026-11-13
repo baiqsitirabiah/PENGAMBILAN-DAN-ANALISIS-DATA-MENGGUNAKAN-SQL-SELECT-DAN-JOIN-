@@ -1,0 +1,3 @@
+SELECT nim, nama_mahasiswa
+FROM mahasiswa
+WHERE nama_mahasiswa LIKE '%Mad%';
