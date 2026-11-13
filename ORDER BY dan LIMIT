@@ -1,0 +1,4 @@
+SELECT kode_kelas, nama_kelas, tahun_ajaran
+FROM kelas_kuliah
+ORDER BY kode_kelas ASC
+LIMIT 5;
